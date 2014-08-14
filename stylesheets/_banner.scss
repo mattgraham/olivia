@@ -1,0 +1,32 @@
+#banner {
+	min-height: 500px;
+	background: red;
+	width: 100%;
+	margin-top: 80px;
+	background: url('http://gratisography.com/pictures/70H.jpg');
+	background-size: cover;
+
+	.title {
+		display: inline-block;
+		width: 100%;
+		font-size: 0px;
+		text-align: center;
+		background: rgba(#F16272, .95);
+		margin-top: 140px;
+		box-shadow: 0 0 0 25px rgba(#F16272, .4);
+
+		h1 {
+			display: inline-block;
+			font-size: 96px;
+			color: #fff;
+
+			.meta {
+				clear: both;
+				display: inline-block;
+				float: right;
+				font-size: 13px;
+				font-family: Arial;
+			}
+		}		
+	}
+}
